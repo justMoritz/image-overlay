@@ -1,5 +1,7 @@
 # Image with Overlay in php (no CSS)
 
+*please see file for more documentation on how it works :)*
+
 php Script that will generate an custom overlay on an image, and output it as a PNG. 
 
 This script prevents having to use CSS to overlay and image with another (or div or pseudo element) and applying various filters, opacities, etc. Doing so in CSS impacts performance negatively, and causes a repaint/recalculation with every scroll.
