@@ -5,7 +5,6 @@
  * 1) Generates the Overlay Image
  *
  *    from URL parameters or defaults.
- *    this script takes 
  *
  *    Usage: …/imagecombine.php?image=[url-encoded-image]&hex=FF2200&alpha=33
  *    Image: A URL encoded path to the image. 
@@ -37,8 +36,8 @@
 
   // generates a PNG with the above parameters
   $im = imagecreatetruecolor(100, 100);
-  $red = imagecolorallocatealpha($im, $r, $g, $b, $alpha);
-  imagefill($im, 0, 0, $red);
+  $rdmg = imagecolorallocatealpha($im, $r, $g, $b, $alpha);
+  imagefill($im, 0, 0, $rdmg);
   imagesavealpha($im, TRUE);
 
 
